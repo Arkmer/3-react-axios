@@ -22,6 +22,9 @@ class App extends Component {
       if(repeat === stop){
         console.log('Gettin it done!', stop);
       }
+      if(stop === 404){
+        console.log('Wrong button, bub. The 404 error is next door.');
+      }
     }
   }
 
